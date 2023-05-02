@@ -1,0 +1,58 @@
+.center {
+	text-align: center;
+}
+
+a {
+	color: #3391ff;
+}
+
+body {
+	top: 0;
+	left: 0;
+	width: 98%;
+	height: 98%;
+	position: absolute;
+	display: table;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.yo {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.img {
+	width: 250px;
+}
+
+.img2 {
+	width: 250px;
+	position: relative;
+	z-index: 1;
+	left: 52px;
+}
+
+.img3 {
+	width: 100px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 180px;
+	right: 25px;
+	z-index: 2;
+}
+
+#vid {
+	width: 250px;
+}
