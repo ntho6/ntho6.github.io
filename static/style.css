@@ -1,0 +1,64 @@
+body {
+	margin: 0 auto;
+	font-family: "Times New Roman", Times, serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	pointer-events: none;
+	min-height: 90vh;
+}
+
+a {
+	color: #3391ff;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+.off {
+	display: none;
+}
+
+.in {
+	display: inline;
+	vertical-align: middle;
+}
+
+.img1 {
+	width: 250px;
+	position: relative;
+	left: 50px;
+	z-index: 1;
+}
+
+.img2 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+	bottom: 30px;
+	right: 23px;
+	z-index: 2;
+}
+
+#vid {
+	width: 250px;
+	margin-top: -2em;
+}
+
+#dorm {
+	margin-top: -2em;
+}
+
+.text {
+	position: relative;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	top: 0.2em;
+}
